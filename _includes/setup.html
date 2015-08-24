@@ -1,0 +1,294 @@
+<h3>Overview</h3>
+
+<div class="row-fluid">
+  <div class="span6">
+    <h4>Editor</h4>
+    <p>
+      Make sure you install, or have available, a text editor that
+      you are comfortable with using.
+      When you're writing code, it's nice to have a text
+      editor that is optimized for writing code, with features
+      like automatic color-coding of key words.
+    </p>
+    <h4>The Bash Shell</h4>
+    <p>
+      Bash is a commonly-used shell. Using a shell gives you
+      more power to do more tasks more quickly with your
+      computer.
+    </p>
+    <h4>Git</h4>
+    <p>
+      Git is a state-of-the-art version control system. It
+      lets you track who made changes to what when and has
+      options for easily updating a shared or public version of
+      your code on <a href="https://github.com/">github.com</a>.
+    </p>
+  </div>
+  <div class="span6">
+    <h4>Python</h4>
+    <p>
+      Python is becoming very popular in scientific computing,
+      and it's a great language for teaching general programming concepts due to its easy-to-read syntax.
+      We teach with Python version 2.7,
+      since it is still the most widely used.
+      Installing all the scientific packages for Python individually can be a bit difficult,
+      so we recommend an all-in-one installer.
+    </p>
+    <h4>Make</h4>
+    <p>
+      Originally invented to manage compilation of programs written in
+      languages like C, Make can be used to automatically update any set
+      of files that depend on another set of files. This makes it a good
+      solution for many data analysis and data management
+      problems. While there are many build tools now in existence
+      (e.g. ANT and CMake) they share the same fundamental concepts as
+      Make. 
+    </p>
+  </div>
+</div>
+
+<h3>Windows</h3>
+
+<div class="row-fluid">
+  <div class="span6">
+    <h4>Editor</h4>
+    <p>
+      <code>nano</code> is the editor installed by the Software Carpentry Installer,
+      it is a basic editor integrated into the lesson material.
+    </p>
+    <p>
+      <a href="http://notepad-plus-plus.org/">Notepad++</a> is a
+      popular free code editor for Windows.
+      Be aware that you must add its installation directory to your system path
+      in order to launch it from the command line
+      (or have other tools like Git launch it for you).
+      Please ask your instructor to help you do this.
+    </p>
+    <h4>Git Bash</h4>
+    <p>
+      Install Git for Windows by download and running
+      <a href="http://msysgit.github.io/">the installer</a>.
+      This will provide you with both Git and Bash in the Git Bash program.
+    </p>
+    <h4>Software Carpentry Installer</h4>
+    <p>This installer requires an active internet connection</p>
+    <p>After installing Python and Git Bash:</p>
+    <ul>
+      <li>
+        Download the <a href="{{site.windows_installer_path}}">installer</a>.
+      </li>
+      <li>
+        If the file opens directly in the browser select <strong>File&rarr;Save Page As</strong>
+        to download it to your computer.
+      </li>
+      <li>
+        Double click on the file to run it.
+      </li>
+    </ul>
+  </div>
+  <div class="span6">
+    <h4>Python</h4>
+    <ul>
+      <li>
+        Download and install  <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>.
+      </li>
+      <li>
+        Use all of the defaults for installation
+        <em>except</em>
+        make sure to check <strong>Make Anaconda the default Python</strong>.
+      </li>
+    </ul>
+    <h4>Make</h4>
+    <p>
+    Once you have installed Git Bash you can install Make by:
+    <ul>
+    <li>
+    Download <code>make.exe</code> from <a
+href="https://github.com/msysgit/msysgit/blob/master/bin/make.exe?raw=true">here</a>
+    </li>
+    <li>
+    Place it in the <code>bin</code> directory where you installed Git
+    Bash e.g. <code>C:\Program Files (x86)\Git\bin</code>.
+    </li>
+    <li> 
+    To test: open a Git Bash window, type <code>make</code>, and press
+    Enter.
+    </li>
+    <li> 
+    You should see the following message
+    <pre>make: *** No targets specified and no makefile found. Stop.</pre>
+    This means that Make was successfully installed.
+    Otherwise, you'll see this error message:
+    <pre>bash: make: command not found</pre>
+    </li>
+    </ul>
+    </p>
+  </div>
+</div>
+
+<h3>Mac OS X</h3>
+
+<div class="row-fluid">
+  <div class="span6">
+    <h4>Editor</h4>
+    <p>
+      We recommend
+      <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
+      <a href="http://www.sublimetext.com/">Sublime Text</a>.
+      In a pinch, you can use <code>nano</code>,
+      which should be pre-installed.
+    </p>
+    <h4>Bash</h4>
+    <p>
+      The default shell in all versions of Mac OS X is bash,
+      so no need to install anything.  You access bash from
+      the Terminal (found
+      in <code>/Applications/Utilities</code>).  You may want
+      to keep Terminal in your dock for this workshop.
+    </p>
+    <h4>Git</h4>
+    <p>
+      Install Git for Mac by downloading and running
+      <a href="http://git-scm.com/downloads">the installer</a>.  For older
+      versions of OS X (10.5-10.7) use the most recent available
+      installer <a href="https://code.google.com/p/git-osx-installer/downloads/list">available
+      here</a>. Use the Leopard installer for 10.5 and the Snow Leopard
+      installer for 10.6-10.7.
+    </p>
+  </div>
+  <div class="span6">
+    <h4>Python</h4>
+    <ul>
+      <li>
+        Download and install <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a>.
+      </li>
+      <li>
+        Use all of the defaults for installation
+        <em>except</em>
+        make sure to check <strong>Make Anaconda the default Python</strong>.
+      </li>
+    </ul>
+    <h4>Make</h4>
+    <p>
+    For OS X, version 10.9 (Mavericks) or above, download the Command Line
+    Tools by doing:    
+    </p>
+    <pre>xcode-select  --install</pre>
+    <p>
+    For more information, see the <a href="http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/">OSX Daily blog</a>.
+    </p>
+    If you have an older OS X version and you do not already have 
+    access to <code>make</code> from within
+    your shell, you will need to install XCode (which is free, but
+    over a gigabyte to download). 
+    </p>
+    <ul>
+      <li>Go to the Apple app store</li>
+      <li>Search for XCode</li>
+      <li>Click <strong>Free</strong></li>
+      <li>Click <strong>Install App</strong></li>
+    </ul>
+    <p>
+    Once XCode has installed:
+    </p>
+    <ul>
+      <li>Click <strong>Applications</strong></li>
+      <li>Click <strong>XCode</strong></li>
+      <li>Select <strong>XCode&rarr;Preferences...</strong></li>
+      <li>Click <strong>Downloads</strong></li>
+      <li>Select <strong>Command Line Tools</strong></li>
+      <li>Click <strong>Install</strong></li>
+    </ul>
+    <p>
+    You will now be able to run <code>make</code> within your shell.
+    </p>
+  </div>
+</div>
+
+<h3>Linux</h3>
+
+<div class="row-fluid">
+  <div class="span6">
+    <h4>Editor</h4>
+    <p>
+      <a href="http://kate-editor.org/">Kate</a> is one option for Linux users.
+      In a pinch, you can use <code>nano</code>,
+      which should be pre-installed.
+    </p>
+    <h4>Bash</h4>
+    <p>
+      The default shell is usually <code>bash</code>,
+      but if your machine is set up differently
+      you can run it by opening a terminal and typing <code>bash</code>.
+      There is no need to install anything.
+    </p>
+    <h4>Git</h4>
+    <p>
+      If Git is not already available on your machine you can try
+      to install it via your distro's package manager
+      (e.g. <code>apt-get</code> or <code>yum</code>).
+    </p>
+  </div>
+  <div class="span6">
+    <h4>Python</h4>
+    <p>
+      We recommend the all-in-one scientific Python installer
+      <a href="http://continuum.io/downloads.html">Anaconda</a>.
+      (Installation requires using the shell and if you aren't
+      comfortable doing the installation yourself just
+      download the installer and we'll help you at the workshop.)
+    </p>
+    <ol>
+      <li>
+        Download the installer that matches your operating
+        system and save it in your home folder.
+      </li>
+      <li>
+        Open a terminal window.
+      </li>
+      <li>
+        Type <pre>bash Anaconda-</pre> and then press
+        tab. The name of the file you just downloaded should
+        appear.
+      </li>
+      <li>
+        Press enter. You will follow the text-only
+        prompts. When there is a colon at the bottom of the
+        screen press the down arrow to move down through the
+        text. Type <code>yes</code> and press enter to approve
+        the license. Press enter to approve the default
+        location for the files. Type <code>yes</code> and
+        press enter to prepend Anaconda to
+        your <code>PATH</code> (this makes the Anaconda
+        distribution the default Python).
+      </li>
+    </ol>
+    <h4>Make</h4>
+    <p>
+    Make is a standard tool on Linux systems and should already be
+    available.
+    </p>
+  </div>
+</div>
+
+<h3>Virtual Machine</h3>
+
+<p>
+  As an alternative to the above, you can  use a virtual machine (VM)
+  rather than install all the software above. To use a VM:
+</p>
+<ol>
+  <li>
+    Install <a href="https://www.virtualbox.org/">VirtualBox</a>.
+  </li>
+  <li>
+    Download our <a href="{{site.vm_url}}">VM image</a>.
+    <strong>Warning:</strong>
+    this file is 1.7 GByte,
+    so please download it <em>before</em> coming to your workshop.
+  </li>
+  <li>
+    Load the VM into VirtualBox by selecting "Import Appliance"
+    and loading the <code>.ova</code> file.
+  </li>
+</ol>

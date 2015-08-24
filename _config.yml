@@ -1,0 +1,12 @@
+markdown        : kramdown
+kramdown        :
+  entity_output : as_input # &mdash; is output as &mdash;
+  smart_quotes  : [39, 39, 34, 34] # decimal for left/right single/double quotes
+exclude         : [branding, "*.Rmd"]
+contact         : "support@archer.ac.uk"
+github_url      : "https://github.com/hpcarcher/2015-10-29-Leeds-DC"
+swc_prefix      : "http://software-carpentry.org"
+twitter_name    : "@EPCCed"
+twitter_url     : "https://twitter.com/EPCCed"
+windows_installer_path : "http://files.software-carpentry.org/SWCarpentryInstaller.exe"
+vm_url          : "https://docs.google.com/uc?id=0B4Kr6DYkzkQtd05FekRId05DLXM&amp;export=download"
